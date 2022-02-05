@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.wrapper{
+    display: block;
+    width: 80vw;
+    margin: 2vw;
+    background-color: lightgrey;
+    border: 0.5vw groove blueviolet;
+}
+
+.cv{
+    display: flex;
+    padding: 0.2vw;
+}
+
+.personal-info{
+    width: 30vw;
+    margin: 3vw;
+    
+}
+ .personal-info p{
+margin-top: 0;
+ }
+
+.avatar{
+    width: 70%;
+    
+}
+
+h1 {
+    font-size: 1.5vw;
+    color: rgb(19, 19, 179);
+    animation: 3s infinite alternate h1Slidein;
+    text-align: center;
+}
+@keyframes h1Slidein {
+    0%   {background-color: lightpink; left:0px; top:0px;}
+    25%  {background-color:lightyellow; left:200px; top:0px;}
+    50%  {background-color:lightblue; left:200px; top:200px;}
+    75%  {background-color:lightgreen; left:0px; top:200px;}
+    100% {background-color:lightpink; left:0px; top:0px;}
+}
+
+h3 {
+    color: rgb(19, 19, 179);
+    animation: 3s infinite alternate slidein;
+}
+
+@keyframes slidein {
+    0%   {background-color: lightpink; left:0px; top:0px;padding-left: 70%;}
+    25%  {background-color:lightyellow; left:200px; top:0px;}
+    50%  {background-color:lightblue; left:200px; top:200px;}
+    75%  {background-color:lightgreen; left:0px; top:200px;}
+    100% {background-color:lightpink; left:0px; top:0px;}
+  }
+
+h3{
+ margin-bottom: 0;
+ font-size: 1.2vw;
+}
+
+h4 {
+    margin-bottom: 0;
+    font-size: 1vw;
+}
+
+.experience-info{
+    width: 55vw;
+    margin: 3vw;
+    
+}
+
+.languages ul, .education ul, .code-examples ul, .skills ul{
+    padding-left: 1.5vw;
+   
+}
+
+.languages li, .education li, .code-examples li,  .skills li{
+    margin-bottom: 0.45vw;
+    margin-top: 0.45vw;
+    font-size: 1vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+
+  
+  
+
